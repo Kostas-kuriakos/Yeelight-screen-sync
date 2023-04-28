@@ -17,7 +17,7 @@ except Exception as e:
     exit()
 
 
-with open('conf.json') as json_file:
+with open('config.json') as json_file:
     data = json.load(json_file)
     BULB_IP = data["Bulb_IP"]
     DELAY = data["Transmit_Delay"]
