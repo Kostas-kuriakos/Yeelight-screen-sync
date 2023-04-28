@@ -30,8 +30,6 @@ You can adjust the brightness, color temperature, and smoothness of the Yeelight
 ## License
 
 This script is released under the BSD 3-Clause License.
-
 Copyright (c) 2023, kostas kuriakos
-
 Redistribution and use in source and binary forms, with or without
 modification, are permitted.
