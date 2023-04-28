@@ -13,14 +13,14 @@ This Python script uses a Yeelight RGB bulb to display the average color of your
 
 1.  Connect your Yeelight bulb to your local network.
 2.  Find the IP address of your Yeelight bulb. You can find it by using the Yeelight app or your router's admin page.
-3.  Open `screen_color_sync.py` in your favorite text editor.
+3.  Open `config.json` in any text editor.
 4.  Edit the `BULB_IP` variable to match the IP address of your Yeelight bulb.
 5.  Run the script by typing `python screen_color_sync.py` in your terminal or command prompt.
 6.  The Yeelight bulb will now display the average color of your screen in real time.
 
 ## Configuration
 
-You can adjust the brightness, color temperature, and smoothness of the Yeelight bulb by changing the values in the `main()` function. You can also adjust the delay time between updates by changing the `DELAY` variable.
+You can adjust the brightness, color temperature, and smoothness of the Yeelight bulb by changing the values in the `main()` function. You can also adjust the delay time between updates by changing the `DELAY` variable in the json file (lower than 1 sec delay not recommended).
 
 ## Troubleshooting
 
