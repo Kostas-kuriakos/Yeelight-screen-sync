@@ -7,6 +7,7 @@ This Python script uses a Yeelight RGB bulb to display the average color of your
 -   A Yeelight RGB bulb
 -   Python 3.x installed on your computer
 -   The Pillow, yeelight, and numpy libraries installed in Python. You can install them by running `pip install Pillow yeelight numpy` in your terminal or command prompt.
+-   yeelight v0.7.10 module
 
 ## Usage
 
